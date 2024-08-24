@@ -16,6 +16,6 @@
 
 #
 
-## Search Engine Walkthough GIF
+# Search Engine Walkthough GIF
 
 <img src="bio_dept_search_engine_demo.gif" width=500><br>
