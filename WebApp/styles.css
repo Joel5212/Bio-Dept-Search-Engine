@@ -1,0 +1,187 @@
+html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 75px;
+    font-family: "Lucida Handwriting";
+    color: white;
+    margin: 0;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 45%;
+    position: relative;
+    flex-direction: column;
+}
+
+.search-bar {
+    height: 50px;
+    border-radius: 10px;
+    width: 55%;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid gray;
+    margin-top: 60px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.search-btn {
+    margin-top: 45px;
+    color: white;
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.search-btn:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.image {
+    position: absolute;
+    /* Allow input to be on top of the image */
+    z-index: -1;
+    /* Ensure the image is behind the input */
+    width: 100%;
+    /* Stretch the image to fit the container */
+    height: 100%;
+    /* Match the height of the container */
+    object-fit: cover;
+    /* Ensure the image covers the container without distortion */
+}
+
+.inactive-image {
+    width: 200px;
+    height: 200px;
+}
+
+.inactive-image-container {
+    /* margin-top: 200px;s */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.no-results-message-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-results-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 90px;
+    font-size: 38px;
+    background-color: rgb(248, 194, 194);
+    color: red;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 0, 0);
+    font-family: sans-serif;
+}
+
+.list-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 65%;
+    border-radius: 15px;
+    background-color: #D2E1CC;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.faculty-member-image {
+    height: 290px;
+    width: 230px
+}
+
+.faculty-info-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-left: 60px;
+}
+
+.info-text {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black
+}
+
+.info-text-name {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    font-family: "Arial", sans-serif;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* @media screen and (max-width: 1800px) {
+    .search-bar-container {
+        height: 350px
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .search-bar-container {
+        height: 200px;
+    }
+} */
