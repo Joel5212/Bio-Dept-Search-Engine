@@ -18,4 +18,4 @@
 
 # Search Engine Walkthough GIF
 
-<img src="bio_dept_search_engine_demo.gif" width=1200 height=500><br>
+<img src="bio_dept_search_engine_demo.gif" width=1200 height=800><br>
