@@ -20,8 +20,6 @@
 
 <img src="bio_dept_search_engine_demo.gif" width=1200 height=500><br>
 
-#
+# 
 
-# Full Demo: 
-
-<a href = "https://youtu.be/PcJIEcdkk9o?si=YbWioakwxVyM-MRE">
+# [Full Demo] (https://youtu.be/PcJIEcdkk9o?si=YbWioakwxVyM-MRE) 
